@@ -1,0 +1,67 @@
+<style>
+  .hide {
+    display: none !important;
+  }
+</style>
+
+
+<script>
+  function titleslide() {
+    let footer = document.querySelector('div.footer');
+    let slideNo = document.querySelector('div.slide-number');
+    let slideLogo = document.querySelector('img.slide-logo');
+    let SlideTitle = document.getElementById('title-slide');
+    let Author = document.getElementsByClassName('quarto-title-author')[0];
+    let Tuthor = document.getElementsByClassName('quarto-title-author')[1];
+    
+    
+    subtitles = document.querySelector('#title-slide > p.subtitle');
+    subtitles.style["margin-bottom"] = "1rem";
+    const sublead = document.createElement('p');
+      sublead.className = 'subtitle lead';
+      sublead.id = 'sublead';
+      sublead.textContent = 'Máster Universitario en Banca y Finanzas Curso académico 2022/2023';
+      sublead.style["font-size"] = "0.9em";
+      sublead.style["margin-bottom"] = "1rem";
+    const sub_sublead = document.createElement('p');
+      sub_sublead.className = 'subtitle lead';
+      sub_sublead.id='sub_sublead';
+      sub_sublead.textContent = 'Trabajo de Fin de Máster presentado en la Facultad de Economía y Empresa de la Universidade da Coruña para la obtención del Máster en Banca y Finanzas';
+      sub_sublead.style["font-size"] = "0.6em";
+      sub_sublead.style["margin-bottom"] = "1.5rem";
+    const autor_text = document.createElement('p');
+      autor_text.textContent = 'Autor:';
+      autor_text.style["font-size"] = "0.7em";
+      autor_text.style["margin"] = "0";
+    const tutor_text = document.createElement('p');
+      tutor_text.textContent = 'Tutor:';
+      tutor_text.style["font-size"] = "0.7em";
+      tutor_text.style["margin"] = "0";
+    const udc_img = document.createElement('img');
+      udc_img.src = 'udclogo.png';
+      udc_img.style["width"] = "15%";
+    
+    slideNo.classList.add('hide');
+    footer.classList.add('hide');
+    slideLogo.classList.add('hide');
+    SlideTitle.insertBefore(udc_img, SlideTitle.children[0]);
+    SlideTitle.insertBefore(sublead, SlideTitle.children[3]);
+    SlideTitle.insertBefore(sub_sublead, SlideTitle.children[4]);
+    Author.insertBefore(autor_text, Author.children[0]);
+    Tuthor.insertBefore(tutor_text, Tuthor.children[0]);
+  
+    Reveal.on('slidechanged', event => {  
+      if(Reveal.isFirstSlide()) {
+        slideNo.classList.add('hide');
+        footer.classList.add('hide');
+        slideLogo.classList.add('hide');
+      } else {
+        slideNo.classList.remove('hide');
+        footer.classList.remove('hide');
+        slideLogo.classList.remove('hide');
+      }
+    });
+  }
+  
+  window.onload = titleslide();
+</script>
