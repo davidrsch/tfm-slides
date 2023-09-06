@@ -23,10 +23,363 @@ format:
     multiplex: true
     controls: true
     navigation-mode: linear
+    transition: slide
     chalkboard:
       theme: whiteboard
       boardmarker-width: 5
-    include-after-body: clean_title_page.html
+    include-after-body: style_and_scripts_after.html
+    include-before-body: style_and_scripts_before.html
 ---
 
+## Introducción
 
+:::: {.columns}
+
+::: {.column width="60%"}
+Este trabajo se enfoca en la integración de dos poderosas herramientas: las redes neuronales artificiales y la programación cuadrática, para abordar el desafío de la gestión de carteras.
+:::
+
+::: {.column width="40%"}
+Imagen
+:::
+
+::::
+
+
+## Estructura del trabajo
+
+::: {.incremental}
+- Caracterización de las series temporales financieras
+- Redes neuronales artificiales en la previsión de las series de tiempo
+- Composición de carteras
+- Datos
+- Modelado y entrenamiento
+- Resultado
+:::
+
+## Estructura de la exposición
+
+::: {.incremental}
+- Revisión de la literatura
+- Metodología
+- Resultados
+- Conclusiones
+- Recomendaciones
+:::
+
+## Revisión de la literatura
+
+::::: {.columns style='display: flex !important; font-size: 0.7em'}
+::: {.column width="80%"}
+::: {.fragment fragment-index=1}
+- "Empirical Asset Pricing via Machine Learning"
+:::
+::: {.fragment fragment-index=3}
+- "Gradient-based learning applied to document recognition", "Long Short-Term Memory", "Dual and primal-dual methods for solving strictly convex quadratic programs" y "A numerically stable dual method for solving strictly convex quadratic programs"
+:::
+::: {.fragment fragment-index=5}
+- "Comisión Nacional del Mercado de Valores y Bolsas y Mercados Españoles"
+:::
+::: {.fragment fragment-index=7}
+- "Medium", "Investopedia", "colah's blog", "Machine Learning Mastery" y "A brief review of portfolio optimization techniques"
+:::
+:::
+::: {.column width="20%" style='display: flex; justify-content: center; align-items: center;'}
+::: {.fragment .fade-in-then-out fragment-index=2 style='position: absolute'}
+
+- Aprendizaje automático para la evaluación de activos
+- Importancia relativa de los predictores
+- Rendimiento de la cartera
+  
+:::
+::: {.fragment .fade-in-then-out fragment-index=4 style='position: absolute'}
+- Redes Neuronales Convulucionales
+- LSTM
+- Dual Active Set Method 
+:::
+::: {.fragment .fade-in-then-out fragment-index=6 style='position: absolute'}
+- Conceptos fundamentales
+- Información
+:::
+::: {.fragment fragment-index=7}
+- Material de apoyo
+:::
+:::
+:::::
+
+::: notes
+1 - Oficina Nacional de Investigación Económica (USA) SP500
+
+1.1 - Regresión lineal, Regresión penalizada, Reducción de dimensiones, Árboles de regresión, Redes neuronales artificiales
+
+1.2 - Tendencias de precios, Liquidez, Riesgo, Ratios de valoración
+
+1.3 - Redes neuronales artificiale, Métodos basados en árboles de regresión
+
+Algoritmo de optimización para resolver problemas de programación cuadrática
+:::
+
+## Metodología {auto-animate=true auto-animate-easing="ease-in-out"}
+
+::: {.r-vstack style="height: 80%;"}
+::: {.r-hstack}
+
+:::
+:::
+
+## Metodología {auto-animate=true auto-animate-easing="ease-in-out" autoslide=2000}
+
+![](imagenes/01.BME.png){.fragment .absolute top=200 left=0 width="350" autoslide=2000}
+
+![](imagenes/02.yahoo.png){.fragment .absolute top=50 right=50 width="200" autoslide=2000}
+
+![](imagenes/03.error-observaciones.png){.fragment .absolute bottom=0 right=0 width="300" autoslide=2000}
+
+::: {.r-vstack style="height: 80%;"}
+::: {.r-hstack}
+<div data-id="box1" auto-animate-delay="0" class="arrow-pointer-ff">
+<p style="padding-left: 2em; padding-top: 1.6em; font-size: 0.7em;">
+Datos
+</p>
+</div>
+:::
+:::
+
+::: notes
+Falta de registro 10 observaciones
+
+119 empresas a 103 empresas
+
+:::
+
+## Metodología {auto-animate=true auto-animate-easing="ease-in-out" autoslide=2000}
+
+![](imagenes/04.volatilidad.png){.fragment .absolute bottom=25 left=0 width="400" autoslide=2000}
+
+![](imagenes/05.Correlación.png){.fragment .absolute top=50 left=350 width="400" autoslide=2000}
+
+![](imagenes/06.Beta.png){.fragment .absolute bottom=200 right=25 width="200" autoslide=2000}
+
+::: {.r-vstack style="height: 80%;"}
+::: {.r-hstack}
+<div data-id="box1" auto-animate-delay="0" class="arrow-pointer-ff">
+<p style="padding-left: 2em; padding-top: 1.6em; font-size: 0.7em;">
+Datos
+</p>
+</div>
+:::
+:::
+
+::: notes
+Volatilidad: es un término financiero que describe el grado de variación en los rendimientos de un activo durante un período de tiempo determinado
+
+Correlación: mide la fuerza y dirección de la relación lineal entre dos variables, sin considerar otros factores que puedan influir en ellas.
+
+Beta: Relación lineal entre la volatilidad de una acción y la volatilidad del mercado.
+:::
+
+## Metodología {auto-animate=true auto-animate-easing="ease-in-out" autoslide=20}
+
+::: {.r-stack style="height: 80%;"}
+::: {.r-vstack style="height: 80%;"}
+::: {.r-hstack}
+<div data-id="box1" auto-animate-delay="0" class="arrow-pointer-ff">
+<p style="padding-left: 2em; padding-top: 1.6em; font-size: 0.7em;">
+Datos
+</p>
+</div>
+:::
+:::
+
+::: {.fragment autoslide=200}
+::: 
+
+![](imagenes/07.3dvecs.gif){.fragment width="600rem" autoslide=20000}
+
+:::
+
+
+## Metodología {auto-animate=true auto-animate-easing="ease-in-out" autoslide=2000}
+
+::: {.r-vstack style="height: 80%;"}
+::: {.r-hstack}
+<div data-id="box1" auto-animate-delay="0" class="arrow-pointer-ff">
+<p style="padding-left: 2em; padding-top: 1.6em; font-size: 0.7em;">
+Datos
+</p>
+</div>
+<div data-id="box2" auto-animate-delay="0" class="arrow-pointerf">
+<p style="padding-left: 3em; padding-top: 1.6em; font-size: 0.7em;">
+Modelado
+</p>
+</div>
+:::
+:::
+
+## Metodología {auto-animate=true auto-animate-easing="ease-in-out" autoslide=2000}
+
+::: {.r-vstack style="height: 80%;"}
+::: {.r-hstack}
+<div data-id="box1" auto-animate-delay="0" class="arrow-pointer-ff">
+<p style="padding-left: 2em; padding-top: 1.6em; font-size: 0.7em;">
+Datos
+</p>
+</div>
+<div data-id="box2" auto-animate-delay="0" class="arrow-pointerf">
+<p style="padding-left: 3em; padding-top: 1.6em; font-size: 0.7em;">
+Modelado
+</p>
+</div>
+:::
+:::
+
+## Metodología {auto-animate=true auto-animate-easing="ease-in-out" autoslide=2000}
+
+::: {.r-stack style="height: 80%;"}
+::: {.r-vstack style="height: 80%;"}
+::: {.r-hstack}
+<div data-id="box1" auto-animate-delay="0" class="arrow-pointer-ff">
+<p style="padding-left: 2em; padding-top: 1.6em; font-size: 0.7em;">
+Datos
+</p>
+</div>
+<div data-id="box2" auto-animate-delay="0" class="arrow-pointerf">
+<p style="padding-left: 3em; padding-top: 1.6em; font-size: 0.7em;">
+Modelado
+</p>
+</div>
+:::
+:::
+
+::: {.fragment autoslide=200}
+::: 
+
+![](imagenes/08.estructras.png){.fragment width="600rem" autoslide=10000}
+
+:::
+
+## Metodología {auto-animate=true auto-animate-easing="ease-in-out" autoslide=20}
+
+::: {.r-stack style="height: 80%;"}
+::: {.r-vstack style="height: 80%;"}
+::: {.r-hstack}
+<div data-id="box1" auto-animate-delay="0" class="arrow-pointer-ff">
+<p style="padding-left: 2em; padding-top: 1.6em; font-size: 0.7em;">
+Datos
+</p>
+</div>
+<div data-id="box2" auto-animate-delay="0" class="arrow-pointerf">
+<p style="padding-left: 3em; padding-top: 1.6em; font-size: 0.7em;">
+Modelado
+</p>
+</div>
+<div data-id="box3" auto-animate-delay="0" class="arrow-pointerf" style="width:265px;">
+<p style="padding-left: 3em; padding-top: 1.6em; font-size: 0.7em;">
+Entrenamiento
+</p>
+</div>
+:::
+:::
+
+::: {.fragment autoslide=200}
+::: 
+
+![](imagenes/09.wfv.png){.fragment width="600rem" autoslide=10000}
+
+:::
+
+## Metodología {auto-animate=true auto-animate-easing="ease-in-out"}
+
+::: {.r-vstack style="height: 80%;"}
+::: {.r-hstack}
+<div data-id="box1" auto-animate-delay="0" class="arrow-pointer-ff">
+<p style="padding-left: 2em; padding-top: 1.6em; font-size: 0.7em;">
+Datos
+</p>
+</div>
+<div data-id="box2" auto-animate-delay="0" class="arrow-pointerf">
+<p style="padding-left: 3em; padding-top: 1.6em; font-size: 0.7em;">
+Modelado
+</p>
+</div>
+<div data-id="box3" auto-animate-delay="0" class="arrow-pointerf" style="width:265px;">
+<p style="padding-left: 3em; padding-top: 1.6em; font-size: 0.7em;">
+Entrenamiento
+</p>
+</div>
+<div data-id="box4" auto-animate-delay="0" class="arrow-pointerf">
+<p style="padding-left: 3em; padding-top: 1.6em; font-size: 0.7em;">
+Resultado
+</p>
+</div>
+:::
+:::
+
+## Resultados
+
+
+
+## Conclusiones
+
+:::{.nonincremental}
+- uno
+- dos
+:::
+
+## Recomendaciones
+
+:::{.nonincremental}
+- uno
+- dos
+:::
+
+## Columnas
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Left column
+:::
+
+::: {.column width="60%"}
+Right column
+:::
+
+::::
+
+## Slide with speaker notes
+
+Slide content
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Código
+
+```{r}
+#| code-line-numbers: "|6|9"
+
+a <- 1
+b <- 2
+c <- 3
+d <- a+b
+e <- a+c
+f <- d+e
+
+f/a
+```
+
+## Tabs
+
+::: {.panel-tabset}
+
+### Tab A
+
+Content for `Tab A`
+
+### Tab B
+
+Content for `Tab B`
+
+:::
