@@ -317,6 +317,79 @@ Resultado
 
 ## Resultados
 
+::: {.r-vstack}
+
+:::: {.columns}
+
+::: {.column width="95%"}
+
+```{r}
+
+library(readr)
+library(dplyr)
+library(plotly)
+
+dataindic <- read_csv("data/indicadores.csv")
+dataindic <- dataindic[,-1]
+
+updatemenus <- list(
+  list(
+    active=0,
+    type="buttons",
+    buttons=list(
+      list(
+        label = "1",
+        method = "update",
+        args = list(list(visible = c(T,T,F,F,F,F)),
+                    list(title = "Estructura-1"))),
+      list(
+        label = "2",
+        method = "update",
+        args = list(list(visible = c(F,F,T,T,F,F)),
+                    list(title = "Estructura-2"))),
+      list(
+        label = "3",
+        method = "update",
+        args = list(list(visible = c(F,F,F,F,T,T)),
+                    list(title = "Estructura-3")))
+      )
+    )
+  )
+
+fig <- plot_ly(dataindic, type = 'scatter', mode = 'lines')
+fig <- fig |> 
+  add_lines(x=~Date, y =~meanmse1, name="MSE", line= list(color="blue")) |>
+  add_lines(x=~Date, y =~meanrsqrd1, name="R2", line= list(color="green")) |>
+  add_lines(x=~Date, y =~meanmse2, name="MSE", line= list(color="blue")) |>
+  add_lines(x=~Date, y =~meanrsqrd2, name="R2", line= list(color="green")) |>
+  add_lines(x=~Date, y =~meanmse3, name="MSE", line= list(color="blue")) |>
+  add_lines(x=~Date, y =~meanrsqrd3, name="R2", line= list(color="green")) |>
+  layout(
+    title="Indicadores",
+    showlegend=F,
+    xaxis=list(title="Fecha"),
+    yaxis=list(title="Valores"),
+    updatemenus=updatemenus
+    )
+
+# Show the plot
+fig
+```
+:::
+
+::: {.column width="5%"}
+
+::: {style="color:blue; font-size: 0.5em; margin-top: 12rem;"}
+- $MSE$ 
+:::
+::: {style="color:green;font-size: 0.5em;"}
+- $R^2$ 
+:::
+:::
+
+::::
+
+:::
 
 
 ## Conclusiones
