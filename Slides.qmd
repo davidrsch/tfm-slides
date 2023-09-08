@@ -334,43 +334,45 @@ dataindic <- dataindic[,-1]
 
 updatemenus <- list(
   list(
+    showactive=TRUE,
     active=0,
     type="buttons",
     buttons=list(
       list(
         label = "1",
         method = "update",
-        args = list(list(visible = c(T,T,F,F,F,F)),
-                    list(title = "Estructura-1"))),
+        args = list(list(visible = list(F,T,T,F,F,F)),
+                    list(title = "Indicadores Estructura-1"))),
       list(
         label = "2",
         method = "update",
-        args = list(list(visible = c(F,F,T,T,F,F)),
-                    list(title = "Estructura-2"))),
+        args = list(list(visible = list(F,F,F,T,T,F)),
+                    list(title = "Indicadores Estructura-2"))),
       list(
         label = "3",
         method = "update",
-        args = list(list(visible = c(F,F,F,F,T,T)),
-                    list(title = "Estructura-3")))
+        args = list(list(visible = list(T,F,F,F,F,T)),
+                    list(title = "Indicadores Estructura-3")))
       )
     )
   )
 
 fig <- plot_ly(dataindic, type = 'scatter', mode = 'lines')
 fig <- fig |> 
-  add_lines(x=~Date, y =~meanmse1, name="MSE", line= list(color="blue")) |>
-  add_lines(x=~Date, y =~meanrsqrd1, name="R2", line= list(color="green")) |>
-  add_lines(x=~Date, y =~meanmse2, name="MSE", line= list(color="blue")) |>
-  add_lines(x=~Date, y =~meanrsqrd2, name="R2", line= list(color="green")) |>
-  add_lines(x=~Date, y =~meanmse3, name="MSE", line= list(color="blue")) |>
-  add_lines(x=~Date, y =~meanrsqrd3, name="R2", line= list(color="green")) |>
+  add_lines(x=~Date, y =~meanmse1, name="MSE_1", line= list(color="blue")) |>
+  add_lines(x=~Date, y =~meanrsqrd1, name="R2_1", line= list(color="green")) |>
+  add_lines(x=~Date, y =~meanmse2, name="MSE_2", line= list(color="blue"), visible=F) |>
+  add_lines(x=~Date, y =~meanrsqrd2, name="R2_2", line= list(color="green"), visible=F) |>
+  add_lines(x=~Date, y =~meanmse3, name="MSE_3", line= list(color="blue"), visible=F) |>
+  add_lines(x=~Date, y =~meanrsqrd3, name="R2_3", line= list(color="green"), visible=F) |>
   layout(
-    title="Indicadores",
+    title="Indicadores Estructura-1",
     showlegend=F,
     xaxis=list(title="Fecha"),
     yaxis=list(title="Valores"),
     updatemenus=updatemenus
     )
+
 
 # Show the plot
 fig
@@ -391,6 +393,102 @@ fig
 
 :::
 
+## Resultados
+
+::: {.r-vstack}
+
+:::: {.columns}
+
+::: {.column width="95%"}
+
+```{r}
+
+dataresults <- read_csv("data/results.csv")
+dataresults <- dataresults[,-1]
+
+updatemenus <- list(
+  list(
+    showactive = TRUE,
+    active=0,
+    type="buttons",
+    buttons=list(
+      list(
+        label = "1",
+        method = "update",
+        args = list(
+          list(
+            visible = c(F,T,T,T,T,T,T,T,F,F,F,F,F,F,F,F,F,F,F,F,F)),
+                    list(title = "Carteras Estructura-1"))),
+      list(
+        label = "2",
+        method = "update",
+        args = list(
+          list(
+            visible = c(F,F,F,F,F,F,F,F,T,T,T,T,T,T,T,F,F,F,F,F,F)),
+                    list(title = "Carteras Estructura-2"))),
+      list(
+        label = "3",
+        method = "update",
+        args = list(
+          list(
+            visible = c(T,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,T,T,T,T,T)),
+                    list(title = "Carteras Estructura-3")))
+      )
+    )
+  )
+
+fig <- plot_ly(dataresults, type = 'scatter', mode = 'lines')
+fig <- fig |> 
+  add_lines(x=~Date, y =~max_y1, name="max1", line= list(color="blue")) |>
+  add_lines(x=~Date, y =~max_951, name="max951", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)') |>
+  add_lines(x=~Date, y =~min_51, name="min51", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.5)') |>
+  add_lines(x=~Date, y =~min_y1, name="min1", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)') |>
+  add_lines(x=~Date, y =~meanPortre1, name="meanP1", line= list(color="blue",dash = 'dash')) |>
+  add_lines(x=~Date, y =~IBEX1, name="IBEX1", line= list(color="red")) |>
+  add_lines(x=~Date, y =~Means1, name="Means1", line= list(color="green")) |>
+  add_lines(x=~Date, y =~max_y2, name="max2", line= list(color="blue"),visible=F) |>
+  add_lines(x=~Date, y =~max_952, name="max952", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F) |>
+  add_lines(x=~Date, y =~min_52, name="min52", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.5)',visible=F) |>
+  add_lines(x=~Date, y =~min_y2, name="min2", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F) |>
+  add_lines(x=~Date, y =~meanPortre2, name="meanP2", line= list(color="blue",dash = 'dash'),visible=F) |>
+  add_lines(x=~Date, y =~IBEX2, name="IBEX2", line= list(color="red"),visible=F) |>
+  add_lines(x=~Date, y =~Means2, name="Means2", line= list(color="green"),visible=F) |>
+  add_lines(x=~Date, y =~max_y3, name="max3", line= list(color="blue"),visible=F) |>
+  add_lines(x=~Date, y =~max_953, name="max953", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F) |>
+  add_lines(x=~Date, y =~min_53, name="min53", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.5)',visible=F) |>
+  add_lines(x=~Date, y =~min_y3, name="min3", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F) |>
+  add_lines(x=~Date, y =~meanPortre3, name="meanP3", line= list(color="blue",dash = 'dash'),visible=F) |>
+  add_lines(x=~Date, y =~IBEX3, name="IBEX3", line= list(color="red"),visible=F) |>
+  add_lines(x=~Date, y =~Means3, name="Means3", line= list(color="green"),visible=F) |>
+  layout(
+    title="Carteras Estructura-1",
+    showlegend=F,
+    xaxis=list(title="Fecha"),
+    yaxis=list(title="Valores"),
+    updatemenus=updatemenus)
+
+# Show the plot
+fig
+```
+:::
+
+::: {.column width="5%"}
+
+::: {style="color:red; font-size: 0.5em; margin-top: 12rem;"}
+- IBEX 
+:::
+::: {style="color:green;font-size: 0.5em;"}
+- Media 
+:::
+::: {style="color:blue;font-size: 0.5em;"}
+- RNA 
+:::
+:::
+
+::::
+
+:::
+
 
 ## Conclusiones
 
@@ -404,55 +502,4 @@ fig
 :::{.nonincremental}
 - uno
 - dos
-:::
-
-## Columnas
-
-:::: {.columns}
-
-::: {.column width="40%"}
-Left column
-:::
-
-::: {.column width="60%"}
-Right column
-:::
-
-::::
-
-## Slide with speaker notes
-
-Slide content
-
-::: {.notes}
-Speaker notes go here.
-:::
-
-## Código
-
-```{r}
-#| code-line-numbers: "|6|9"
-
-a <- 1
-b <- 2
-c <- 3
-d <- a+b
-e <- a+c
-f <- d+e
-
-f/a
-```
-
-## Tabs
-
-::: {.panel-tabset}
-
-### Tab A
-
-Content for `Tab A`
-
-### Tab B
-
-Content for `Tab B`
-
 :::
