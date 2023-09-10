@@ -319,10 +319,6 @@ Resultado
 
 ::: {.r-vstack}
 
-:::: {.columns}
-
-::: {.column width="95%"}
-
 ```{r}
 
 library(readr)
@@ -359,15 +355,16 @@ updatemenus <- list(
 
 fig <- plot_ly(dataindic, type = 'scatter', mode = 'lines')
 fig <- fig |> 
-  add_lines(x=~Date, y =~meanmse1, name="MSE_1", line= list(color="blue")) |>
-  add_lines(x=~Date, y =~meanrsqrd1, name="R2_1", line= list(color="green")) |>
-  add_lines(x=~Date, y =~meanmse2, name="MSE_2", line= list(color="blue"), visible=F) |>
-  add_lines(x=~Date, y =~meanrsqrd2, name="R2_2", line= list(color="green"), visible=F) |>
-  add_lines(x=~Date, y =~meanmse3, name="MSE_3", line= list(color="blue"), visible=F) |>
-  add_lines(x=~Date, y =~meanrsqrd3, name="R2_3", line= list(color="green"), visible=F) |>
+  add_lines(x=~Date, y =~meanmse1, name="MSE", line= list(color="blue")) |>
+  add_lines(x=~Date, y =~meanrsqrd1, name="R2", line= list(color="green")) |>
+  add_lines(x=~Date, y =~meanmse2, name="MSE", line= list(color="blue"), visible=F) |>
+  add_lines(x=~Date, y =~meanrsqrd2, name="R2", line= list(color="green"), visible=F) |>
+  add_lines(x=~Date, y =~meanmse3, name="MSE", line= list(color="blue"), visible=F) |>
+  add_lines(x=~Date, y =~meanrsqrd3, name="R2", line= list(color="green"), visible=F) |>
   layout(
     title="Indicadores Estructura-1",
-    showlegend=F,
+    showlegend=T,
+    legend = list(y = 0.5),
     xaxis=list(title="Fecha"),
     yaxis=list(title="Valores"),
     updatemenus=updatemenus
@@ -377,29 +374,12 @@ fig <- fig |>
 # Show the plot
 fig
 ```
-:::
-
-::: {.column width="5%"}
-
-::: {style="color:blue; font-size: 0.5em; margin-top: 12rem;"}
-- $MSE$ 
-:::
-::: {style="color:green;font-size: 0.5em;"}
-- $R^2$ 
-:::
-:::
-
-::::
 
 :::
 
 ## Resultados
 
 ::: {.r-vstack}
-
-:::: {.columns}
-
-::: {.column width="95%"}
 
 ```{r}
 
@@ -439,30 +419,37 @@ updatemenus <- list(
 
 fig <- plot_ly(dataresults, type = 'scatter', mode = 'lines')
 fig <- fig |> 
-  add_lines(x=~Date, y =~max_y1, name="max1", line= list(color="blue")) |>
-  add_lines(x=~Date, y =~max_951, name="max951", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)') |>
-  add_lines(x=~Date, y =~min_51, name="min51", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.5)') |>
-  add_lines(x=~Date, y =~min_y1, name="min1", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)') |>
-  add_lines(x=~Date, y =~meanPortre1, name="meanP1", line= list(color="blue",dash = 'dash')) |>
-  add_lines(x=~Date, y =~IBEX1, name="IBEX1", line= list(color="red")) |>
-  add_lines(x=~Date, y =~Means1, name="Means1", line= list(color="green")) |>
-  add_lines(x=~Date, y =~max_y2, name="max2", line= list(color="blue"),visible=F) |>
-  add_lines(x=~Date, y =~max_952, name="max952", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F) |>
-  add_lines(x=~Date, y =~min_52, name="min52", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.5)',visible=F) |>
-  add_lines(x=~Date, y =~min_y2, name="min2", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F) |>
-  add_lines(x=~Date, y =~meanPortre2, name="meanP2", line= list(color="blue",dash = 'dash'),visible=F) |>
-  add_lines(x=~Date, y =~IBEX2, name="IBEX2", line= list(color="red"),visible=F) |>
-  add_lines(x=~Date, y =~Means2, name="Means2", line= list(color="green"),visible=F) |>
-  add_lines(x=~Date, y =~max_y3, name="max3", line= list(color="blue"),visible=F) |>
-  add_lines(x=~Date, y =~max_953, name="max953", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F) |>
-  add_lines(x=~Date, y =~min_53, name="min53", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.5)',visible=F) |>
-  add_lines(x=~Date, y =~min_y3, name="min3", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F) |>
-  add_lines(x=~Date, y =~meanPortre3, name="meanP3", line= list(color="blue",dash = 'dash'),visible=F) |>
-  add_lines(x=~Date, y =~IBEX3, name="IBEX3", line= list(color="red"),visible=F) |>
-  add_lines(x=~Date, y =~Means3, name="Means3", line= list(color="green"),visible=F) |>
+  # Lineas de RNA1
+  # Linea de valos máximos de RNA1
+  add_lines(x=~Date, y =~max_y1, name="RNA", line= list(color="blue"),legendgroup = 'struct1') |>
+  add_lines(x=~Date, y =~max_951, name="max951", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',legendgroup = 'struct1', showlegend=F) |>
+  add_lines(x=~Date, y =~min_51, name="min51", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.5)',legendgroup = 'struct1', showlegend=F) |>
+  add_lines(x=~Date, y =~min_y1, name="min1", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',legendgroup = 'struct1', showlegend=F) |>
+  add_lines(x=~Date, y =~meanPortre1, name="meanP1", line= list(color="blue",dash = 'dash'),legendgroup = 'struct1', showlegend=F) |>
+  add_lines(x=~Date, y =~IBEX1, name="IBEX", line= list(color="red")) |>
+  add_lines(x=~Date, y =~Means1, name="Means", line= list(color="green")) |>
+  # Lineas de RNA2
+  # Linea de valos máximos de RNA2
+  add_lines(x=~Date, y =~max_y2, name="RNA", line= list(color="blue"),visible=F,legendgroup = 'struct2') |>
+  add_lines(x=~Date, y =~max_952, name="max952", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F,legendgroup = 'struct2', showlegend=F) |>
+  add_lines(x=~Date, y =~min_52, name="min52", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.5)',visible=F,legendgroup = 'struct2', showlegend=F) |>
+  add_lines(x=~Date, y =~min_y2, name="min2", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F,legendgroup = 'struct2', showlegend=F) |>
+  add_lines(x=~Date, y =~meanPortre2, name="meanP2", line= list(color="blue",dash = 'dash'),visible=F,legendgroup = 'struct2', showlegend=F) |>
+  add_lines(x=~Date, y =~IBEX2, name="IBEX", line= list(color="red"),visible=F) |>
+  add_lines(x=~Date, y =~Means2, name="Means", line= list(color="green"),visible=F) |>
+  # Lineas de RNA3
+  # Linea de valos máximos de RNA3
+  add_lines(x=~Date, y =~max_y3, name="RNA", line= list(color="blue"),visible=F,legendgroup = 'struct3') |>
+  add_lines(x=~Date, y =~max_953, name="max953", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F, legendgroup = 'struct3', showlegend=F) |>
+  add_lines(x=~Date, y =~min_53, name="min53", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.5)',visible=F, legendgroup = 'struct3', showlegend=F) |>
+  add_lines(x=~Date, y =~min_y3, name="min3", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F, legendgroup = 'struct3', showlegend=F) |>
+  add_lines(x=~Date, y =~meanPortre3, name="meanP3", line= list(color="blue",dash = 'dash'),visible=F, legendgroup = 'struct3', showlegend=F) |>
+  add_lines(x=~Date, y =~IBEX3, name="IBEX", line= list(color="red"),visible=F) |>
+  add_lines(x=~Date, y =~Means3, name="Means", line= list(color="green"),visible=F) |>
   layout(
     title="Carteras Estructura-1",
-    showlegend=F,
+    showlegend=T,
+    legend = list(y = 0.5),
     xaxis=list(title="Fecha"),
     yaxis=list(title="Valores"),
     updatemenus=updatemenus)
@@ -470,22 +457,6 @@ fig <- fig |>
 # Show the plot
 fig
 ```
-:::
-
-::: {.column width="5%"}
-
-::: {style="color:red; font-size: 0.5em; margin-top: 12rem;"}
-- IBEX 
-:::
-::: {style="color:green;font-size: 0.5em;"}
-- Media 
-:::
-::: {style="color:blue;font-size: 0.5em;"}
-- RNA 
-:::
-:::
-
-::::
 
 :::
 
