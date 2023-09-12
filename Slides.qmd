@@ -45,6 +45,13 @@ Imagen
 
 ::::
 
+::: notes
+
+RNA CNN y LSTM predicción, programación cuadrática composición de carteras.
+
+empresas del Mercado Continuo
+
+:::
 
 ## Estructura del trabajo
 
@@ -55,6 +62,23 @@ Imagen
 - Datos
 - Modelado y entrenamiento
 - Resultado
+:::
+
+::: notes
+- Componentes, (apertura, alto, bajo, cierre, volumen, ajustado)
+
+- CNN estracción de caracteristicas.
+
+- Enfoques clásicos e inteligentes, métodos de Programación cudarática (Dual active set metho, secuencia de puntos factibles duales)
+
+- Fuente-problemas, indicadores, estructura
+
+- Estructuras definidas y caracteristicas de construcción
+
+-
+
+-
+
 :::
 
 ## Estructura de la exposición
