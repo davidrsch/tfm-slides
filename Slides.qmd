@@ -40,7 +40,7 @@ Este trabajo se enfoca en la integración de dos poderosas herramientas: las red
 :::
 
 ::: {.column width="40%"}
-Imagen
+![](imagenes/00.intro.png){}
 :::
 
 ::::
@@ -55,10 +55,12 @@ empresas del Mercado Continuo
 
 ## Estructura del trabajo
 
-::: {.incremental}
+::: {.incremental .fragment}
 - Caracterización de las series temporales financieras
 - Redes neuronales artificiales en la previsión de las series de tiempo
 - Composición de carteras
+:::
+::: {.nonicremental .fragment}
 - Datos
 - Modelado y entrenamiento
 - Resultado
@@ -153,11 +155,14 @@ Algoritmo de optimización para resolver problemas de programación cuadrática
 
 ## Metodología {auto-animate=true auto-animate-easing="ease-in-out" autoslide=2000}
 
-![](imagenes/01.BME.png){.fragment .absolute top=200 left=0 width="350" autoslide=2000}
+::: {.fragment autoslide=200}
+:::
 
-![](imagenes/02.yahoo.png){.fragment .absolute top=50 right=50 width="200" autoslide=2000}
+![](imagenes/01.BME.png){.fragment .absolute top=200 left=0 width="350" autoslide=20000}
 
-![](imagenes/03.error-observaciones.png){.fragment .absolute bottom=0 right=0 width="300" autoslide=2000}
+![](imagenes/02.yahoo.png){.fragment .absolute top=50 right=50 width="200" autoslide=5000}
+
+![](imagenes/03.error-observaciones.png){.fragment .absolute bottom=0 right=0 width="300" autoslide=35000}
 
 ::: {.r-vstack style="height: 80%;"}
 ::: {.r-hstack}
@@ -178,11 +183,14 @@ Falta de registro 10 observaciones
 
 ## Metodología {auto-animate=true auto-animate-easing="ease-in-out" autoslide=2000}
 
-![](imagenes/04.volatilidad.png){.fragment .absolute bottom=25 left=0 width="400" autoslide=2000}
+::: {.fragment autoslide=200}
+:::
 
-![](imagenes/05.Correlación.png){.fragment .absolute top=50 left=350 width="400" autoslide=2000}
+![](imagenes/04.volatilidad.png){.fragment .absolute bottom=25 left=0 width="400" autoslide=10000}
 
-![](imagenes/06.Beta.png){.fragment .absolute bottom=200 right=25 width="200" autoslide=2000}
+![](imagenes/05.Correlación.png){.fragment .absolute top=50 left=350 width="400" autoslide=10000}
+
+![](imagenes/06.Beta.png){.fragment .absolute bottom=200 right=25 width="200" autoslide=10000}
 
 ::: {.r-vstack style="height: 80%;"}
 ::: {.r-hstack}
@@ -218,7 +226,13 @@ Datos
 ::: {.fragment autoslide=200}
 ::: 
 
-![](imagenes/07.3dvecs.gif){.fragment width="600rem" autoslide=20000}
+![](imagenes/07.3dvecs.gif){.fragment width="600rem" autoslide=60000}
+
+:::
+
+::: notes
+
++ 17'000 muestras
 
 :::
 
@@ -278,7 +292,7 @@ Modelado
 ::: {.fragment autoslide=200}
 ::: 
 
-![](imagenes/08.estructras.png){.fragment width="600rem" autoslide=10000}
+![](imagenes/08.estructras.png){.fragment width="600rem" autoslide=20000}
 
 :::
 
@@ -308,7 +322,7 @@ Entrenamiento
 ::: {.fragment autoslide=200}
 ::: 
 
-![](imagenes/09.wfv.png){.fragment width="600rem" autoslide=10000}
+![](imagenes/09.wfv.png){.fragment width="600rem" autoslide=30000}
 
 :::
 
