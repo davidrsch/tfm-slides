@@ -60,7 +60,7 @@ empresas del Mercado Continuo
 - Redes neuronales artificiales en la previsión de las series de tiempo
 - Composición de carteras
 :::
-::: {.nonicremental .fragment}
+::: {.nonincremental .fragment}
 - Datos
 - Modelado y entrenamiento
 - Resultado
@@ -415,6 +415,12 @@ fig
 
 :::
 
+::: notes
+
+- La predictibilidad de los modelos varia según aumenta el número de observaciones(-0.00287, 0.0611 y 0.0179)
+
+:::
+
 ## Resultados
 
 ::: {.r-vstack}
@@ -498,17 +504,39 @@ fig
 
 :::
 
+::: notes
+Rentabilidades
+
+
+| obs | mean | Ibex |
+|:---:|-----:|-----:|
+|  1  | 5.63%|40.86%|
+|  2  |35.67%|39.78%|
+|  3  |25.51%|60.54%|
+
+
+:::
+
 
 ## Conclusiones
 
-:::{.nonincremental}
-- uno
-- dos
+::: {.r-vstack  style="height: 80%;"}
+::: {.r-hstack}
+:::{.incremental}
+- Efectividad
+- Ventaja Competitiva
+:::
+:::
 :::
 
 ## Recomendaciones
 
-:::{.nonincremental}
-- uno
-- dos
+::: {.r-vstack style="height: 80%;"}
+::: {.r-hstack}
+:::{.incremental}
+- Continuidad
+- Validar
+- Explicabilidad
+:::
+:::
 :::
