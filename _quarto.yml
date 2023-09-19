@@ -21,10 +21,8 @@ author:
     email: xose.martinez@udc.es
 format: 
   revealjs:
-    output-path: docs 
-    favicon: icologo.png
     logo: logo.png
-    footer: "David Díaz Rodríguez"
+    footer: David Díaz Rodríguez [![](githublogo.png){fig-alt="Github ptoject" width=15px src=githublogo.png}](https://github.com/davidrsch/tfm-slides) 
     multiplex: false
     controls: true
     navigation-mode: linear
