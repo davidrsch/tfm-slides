@@ -1,36 +1,3 @@
----
-title: "Trabajo Final de Máster"
-subtitle: "Aplicación de redes neuronales artificiales y programación cuadrática en la gestión de carteras"
-author: 
-  - name: David Díaz Rodríguez
-    affiliations:
-      - id: udc
-        name: Universidad de La Coruña 
-        city: La Coruña
-        state: Galicia
-    orcid: https://orcid.org/0000-0002-0927-9795
-    email: david.diazr@udc.es
-  - name: Xosé Manuel Martínez Filgueira
-    affiliations:
-      - ref: udc
-    orcid: https://orcid.org/0000-0003-2452-4864
-    email: xose.martinez@udc.es
-format: 
-  revealjs: 
-    favicon: icologo.png
-    logo: logo.png
-    footer: "David Díaz Rodríguez"
-    multiplex: true
-    controls: true
-    navigation-mode: linear
-    transition: slide
-    chalkboard:
-      theme: whiteboard
-      boardmarker-width: 5
-    include-after-body: style_and_scripts_after.html
-    include-before-body: style_and_scripts_before.html
----
-
 ## Introducción
 
 :::: {.columns}
@@ -45,14 +12,6 @@ Este trabajo se enfoca en la integración de dos poderosas herramientas: las red
 
 ::::
 
-::: notes
-
-RNA CNN y LSTM predicción, programación cuadrática composición de carteras.
-
-empresas del Mercado Continuo
-
-:::
-
 ## Estructura del trabajo
 
 ::: {.incremental .fragment}
@@ -64,23 +23,6 @@ empresas del Mercado Continuo
 - Datos
 - Modelado y entrenamiento
 - Resultado
-:::
-
-::: notes
-- Componentes, (apertura, alto, bajo, cierre, volumen, ajustado)
-
-- CNN estracción de caracteristicas.
-
-- Enfoques clásicos e inteligentes, métodos de Programación cudarática (Dual active set metho, secuencia de puntos factibles duales)
-
-- Fuente-problemas, indicadores, estructura
-
-- Estructuras definidas y caracteristicas de construcción
-
--
-
--
-
 :::
 
 ## Estructura de la exposición
@@ -110,7 +52,7 @@ empresas del Mercado Continuo
 - "Medium", "Investopedia", "colah's blog", "Machine Learning Mastery" y "A brief review of portfolio optimization techniques"
 :::
 :::
-::: {.column width="20%" style='display: flex; justify-content: center; align-items: center;'}
+::: {.column style='display: flex; justify-content: center; align-items: center;'}
 ::: {.fragment .fade-in-then-out fragment-index=2 style='position: absolute'}
 
 - Aprendizaje automático para la evaluación de activos
@@ -132,18 +74,6 @@ empresas del Mercado Continuo
 :::
 :::
 :::::
-
-::: notes
-1 - Oficina Nacional de Investigación Económica (USA) SP500
-
-1.1 - Regresión lineal, Regresión penalizada, Reducción de dimensiones, Árboles de regresión, Redes neuronales artificiales
-
-1.2 - Tendencias de precios, Liquidez, Riesgo, Ratios de valoración
-
-1.3 - Redes neuronales artificiale, Métodos basados en árboles de regresión
-
-Algoritmo de optimización para resolver problemas de programación cuadrática
-:::
 
 ## Metodología {auto-animate=true auto-animate-easing="ease-in-out"}
 
@@ -174,13 +104,6 @@ Datos
 :::
 :::
 
-::: notes
-Falta de registro 10 observaciones
-
-119 empresas a 103 empresas
-
-:::
-
 ## Metodología {auto-animate=true auto-animate-easing="ease-in-out" autoslide=2000}
 
 ::: {.fragment autoslide=200}
@@ -202,14 +125,6 @@ Datos
 :::
 :::
 
-::: notes
-Volatilidad: es un término financiero que describe el grado de variación en los rendimientos de un activo durante un período de tiempo determinado
-
-Correlación: mide la fuerza y dirección de la relación lineal entre dos variables, sin considerar otros factores que puedan influir en ellas.
-
-Beta: Relación lineal entre la volatilidad de una acción y la volatilidad del mercado.
-:::
-
 ## Metodología {auto-animate=true auto-animate-easing="ease-in-out" autoslide=20}
 
 ::: {.r-stack style="height: 80%;"}
@@ -229,13 +144,6 @@ Datos
 ![](imagenes/07.3dvecs.gif){.fragment width="600rem" autoslide=60000}
 
 :::
-
-::: notes
-
-+ 17'000 muestras
-
-:::
-
 
 ## Metodología {auto-animate=true auto-animate-easing="ease-in-out" autoslide=2000}
 
@@ -415,12 +323,6 @@ fig
 
 :::
 
-::: notes
-
-- La predictibilidad de los modelos varia según aumenta el número de observaciones(-0.00287, 0.0611 y 0.0179)
-
-:::
-
 ## Resultados
 
 ::: {.r-vstack}
@@ -503,20 +405,6 @@ fig
 ```
 
 :::
-
-::: notes
-Rentabilidades
-
-
-| obs | mean | Ibex |
-|:---:|-----:|-----:|
-|  1  | 5.63%|40.86%|
-|  2  |35.67%|39.78%|
-|  3  |25.51%|60.54%|
-
-
-:::
-
 
 ## Conclusiones
 
