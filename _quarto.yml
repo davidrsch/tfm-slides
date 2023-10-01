@@ -22,7 +22,7 @@ author:
 format: 
   revealjs:
     logo: logo.png
-    footer: David Díaz Rodríguez [![](githublogo.png){fig-alt="Github ptoject" width=15px src=githublogo.png}](https://github.com/davidrsch/tfm-slides) 
+    footer: David Díaz Rodríguez [![](linkedinlogo.png){fig-alt="Linkedin profile" width=15px src=linkedinlogo.png style="margin-bottom:0;"}](https://www.linkedin.com/in/david-d-6257951b8) [![](githublogo.png){fig-alt="Github ptoject" width=15px src=githublogo.png style="margin-bottom:0;"}](https://github.com/davidrsch/tfm-slides) [![](Researchgatelogo.png){fig-alt="ResearchGate profile" width=15px src=Researchgatelogo.png style="margin-bottom:0;"}](https://www.researchgate.net/profile/David-Diaz-Rodriguez) [![](orcidlogo.png){fig-alt="ORCid profile" width=15px src=orcidlogo.png style="margin-bottom:0;"}](https://orcid.org/0000-0002-0927-9795) 
     multiplex: false
     controls: true
     navigation-mode: linear

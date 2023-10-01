@@ -1,3 +1,6 @@
 file.copy("udclogo.png", "docs")
 file.copy("icologo.png", "docs")
+file.copy("linkedinlogo.png", "docs")
 file.copy("githublogo.png", "docs")
+file.copy("Researchgatelogo.png", "docs")
+file.copy("orcidlogo.png", "docs")
