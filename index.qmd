@@ -428,3 +428,13 @@ fig
 :::
 :::
 :::
+
+## Más
+
+::: {.r-hstack text-align="center"}
+
+[![Trabajo Final de Máster](imagenes/TFM.png){.fragment width="400px"}](https://davidrsch.github.io/TFM/)
+
+[![Dashboard](imagenes/Dashboard.png){.fragment width="400px"}](https://daviddrsch.shinyapps.io/TFM_dashboard/)
+
+:::
