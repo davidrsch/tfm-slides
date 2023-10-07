@@ -312,7 +312,7 @@ fig <- fig |>
     showlegend=T,
     legend = list(y = 0.5),
     xaxis=list(title="Fecha"),
-    yaxis=list(title="Valores"),
+    yaxis=list(title="Indicadores"),
     updatemenus=updatemenus
     )
 
@@ -397,7 +397,7 @@ fig <- fig |>
     showlegend=T,
     legend = list(y = 0.5),
     xaxis=list(title="Fecha"),
-    yaxis=list(title="Valores"),
+    yaxis=list(title="Rentabilidades"),
     updatemenus=updatemenus)
 
 # Show the plot
