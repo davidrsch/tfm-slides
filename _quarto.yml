@@ -2,6 +2,8 @@ project:
   output-dir: docs
   pre-render: 
     - movelogos.R
+  post-render: 
+    - renderlangvers.R
   
 title: "Trabajo Final de Máster"
 subtitle: "Aplicación de redes neuronales artificiales y programación cuadrática en la gestión de carteras"
