@@ -109,9 +109,9 @@ Datos
 ::: {.fragment autoslide=200}
 :::
 
-![](../imagenes/04.volatilidad_en.png){.fragment .absolute bottom=25 left=0 width="400" autoslide=10000}
+![](../imagenes/04.volatilidad_gal.png){.fragment .absolute bottom=25 left=0 width="400" autoslide=10000}
 
-![](../imagenes/05.Correlación_en.png){.fragment .absolute top=50 left=350 width="400" autoslide=10000}
+![](../imagenes/05.Correlación.png){.fragment .absolute top=50 left=350 width="400" autoslide=10000}
 
 ![](../imagenes/06.Beta.png){.fragment .absolute bottom=200 right=25 width="200" autoslide=10000}
 
@@ -141,11 +141,11 @@ Datos
 ::: {.fragment autoslide=200}
 ::: 
 
-![](../imagenes/07.3dvecs_en.gif){.fragment width="600rem" autoslide=60000}
+![](../imagenes/07.3dvecs_gal.gif){.fragment width="600rem" autoslide=60000}
 
 :::
 
-## Methodology {auto-animate=true auto-animate-easing="ease-in-out" autoslide=2000}
+## Metodoloxía {auto-animate=true auto-animate-easing="ease-in-out" autoslide=2000}
 
 ::: {.r-vstack style="height: 80%;"}
 ::: {.r-hstack}
@@ -162,7 +162,7 @@ Modelado
 :::
 :::
 
-## Methodology {auto-animate=true auto-animate-easing="ease-in-out" autoslide=2000}
+## Metodoloxía {auto-animate=true auto-animate-easing="ease-in-out" autoslide=2000}
 
 ::: {.r-vstack style="height: 80%;"}
 ::: {.r-hstack}
@@ -200,7 +200,7 @@ Modelado
 ::: {.fragment autoslide=200}
 ::: 
 
-![](../imagenes/08.estructras_en.png){.fragment width="600rem" autoslide=20000}
+![](../imagenes/08.estructras_gal.png){.fragment width="600rem" autoslide=20000}
 
 :::
 
@@ -230,7 +230,7 @@ Adestramento
 ::: {.fragment autoslide=200}
 ::: 
 
-![](../imagenes/09.wfv_en.png){.fragment width="600rem" autoslide=30000}
+![](../imagenes/09.wfv_gal.png){.fragment width="600rem" autoslide=30000}
 
 :::
 
@@ -433,7 +433,7 @@ fig
 
 ::: {.r-hstack text-align="center"}
 
-[![Final Master’s Project](../imagenes/TFM_en.png){.fragment width="400px"}](https://davidrsch.github.io/TFM/)
+[![Final Master’s Project](../imagenes/TFM_gal.png){.fragment width="400px"}](https://davidrsch.github.io/TFM/)
 
 [![Dashboard](../imagenes/Dashboard.png){.fragment width="400px"}](https://daviddrsch.shinyapps.io/TFM_dashboard/)
 
