@@ -29,6 +29,11 @@ format:
     controls: true
     navigation-mode: linear
     transition: slide
+    menu: 
+      custom:
+        - title: 'Language'
+          icon: '<i class="fa fa-language">'
+          content: '<ul class="slide-menu-items"><li class="slide-menu-item" data-item="0" ><a href="./en/index.html"><span class="slide-menu-item-title">English</span></a></li><li class="slide-menu-item" data-item="0" ><a href="./gal/index.html"><span class="slide-menu-item-title">Galego</span></a></li></ul>'
     chalkboard:
       theme: whiteboard
       boardmarker-width: 5
