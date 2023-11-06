@@ -301,12 +301,34 @@ updatemenus <- list(
 
 fig <- plot_ly(dataindic, type = 'scatter', mode = 'lines')
 fig <- fig |> 
-  add_lines(x=~Date, y =~meanmse1, name="MSE", line= list(color="blue")) |>
-  add_lines(x=~Date, y =~meanrsqrd1, name="R2", line= list(color="green")) |>
-  add_lines(x=~Date, y =~meanmse2, name="MSE", line= list(color="blue"), visible=F) |>
-  add_lines(x=~Date, y =~meanrsqrd2, name="R2", line= list(color="green"), visible=F) |>
-  add_lines(x=~Date, y =~meanmse3, name="MSE", line= list(color="blue"), visible=F) |>
-  add_lines(x=~Date, y =~meanrsqrd3, name="R2", line= list(color="green"), visible=F) |>
+  add_lines(x=~Date,
+            y =~meanmse1,
+            name='<span style = "font-family: KaTeX_Math; font-style: italic;"> MSE </span>',
+            line= list(color="blue")) |>
+  add_lines(x=~Date,
+            y =~meanrsqrd1,
+            name='<span style = "font-family: KaTeX_Math; font-style: italic;"> R<sup>2</sup> </span>',
+            line= list(color="green")) |>
+  add_lines(x=~Date,
+            y =~meanmse2,
+            name='<span style = "font-family: KaTeX_Math; font-style: italic;"> MSE </span>',
+            line= list(color="blue"),
+            visible=F) |>
+  add_lines(x=~Date,
+            y =~meanrsqrd2,
+            name='<span style = "font-family: KaTeX_Math; font-style: italic;"> R<sup>2</sup> </span>',
+            line= list(color="green"),
+            visible=F) |>
+  add_lines(x=~Date,
+            y =~meanmse3,
+            name='<span style = "font-family: KaTeX_Math; font-style: italic;"> MSE </span>',
+            line= list(color="blue"),
+            visible=F) |>
+  add_lines(x=~Date,
+            y =~meanrsqrd3,
+            name='<span style = "font-family: KaTeX_Math; font-style: italic;"> R<sup>2</sup> </span>',
+            line= list(color="green"),
+            visible=F) |>
   layout(
     title="Indicators Structure-1",
     showlegend=T,

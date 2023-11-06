@@ -301,12 +301,34 @@ updatemenus <- list(
 
 fig <- plot_ly(dataindic, type = 'scatter', mode = 'lines')
 fig <- fig |> 
-  add_lines(x=~Date, y =~meanmse1, name="MSE", line= list(color="blue")) |>
-  add_lines(x=~Date, y =~meanrsqrd1, name="R2", line= list(color="green")) |>
-  add_lines(x=~Date, y =~meanmse2, name="MSE", line= list(color="blue"), visible=F) |>
-  add_lines(x=~Date, y =~meanrsqrd2, name="R2", line= list(color="green"), visible=F) |>
-  add_lines(x=~Date, y =~meanmse3, name="MSE", line= list(color="blue"), visible=F) |>
-  add_lines(x=~Date, y =~meanrsqrd3, name="R2", line= list(color="green"), visible=F) |>
+  add_lines(x=~Date,
+            y =~meanmse1,
+            name='<span style = "font-family: KaTeX_Math; font-style: italic;"> MSE </span>',
+            line= list(color="blue")) |>
+  add_lines(x=~Date,
+            y =~meanrsqrd1,
+            name='<span style = "font-family: KaTeX_Math; font-style: italic;"> R<sup>2</sup> </span>',
+            line= list(color="green")) |>
+  add_lines(x=~Date,
+            y =~meanmse2,
+            name='<span style = "font-family: KaTeX_Math; font-style: italic;"> MSE </span>',
+            line= list(color="blue"),
+            visible=F) |>
+  add_lines(x=~Date,
+            y =~meanrsqrd2,
+            name='<span style = "font-family: KaTeX_Math; font-style: italic;"> R<sup>2</sup> </span>',
+            line= list(color="green"),
+            visible=F) |>
+  add_lines(x=~Date,
+            y =~meanmse3,
+            name='<span style = "font-family: KaTeX_Math; font-style: italic;"> MSE </span>',
+            line= list(color="blue"),
+            visible=F) |>
+  add_lines(x=~Date,
+            y =~meanrsqrd3,
+            name='<span style = "font-family: KaTeX_Math; font-style: italic;"> R<sup>2</sup> </span>',
+            line= list(color="green"),
+            visible=F) |>
   layout(
     title="Indicadores Estructura-1",
     showlegend=T,
@@ -373,7 +395,7 @@ fig <- fig |>
   add_lines(x=~Date, y =~min_y1, name="min1", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',legendgroup = 'struct1', showlegend=F) |>
   add_lines(x=~Date, y =~meanPortre1, name="meanP1", line= list(color="blue",dash = 'dash'),legendgroup = 'struct1', showlegend=F) |>
   add_lines(x=~Date, y =~IBEX1, name="IBEX", line= list(color="red")) |>
-  add_lines(x=~Date, y =~Means1, name="Means", line= list(color="green")) |>
+  add_lines(x=~Date, y =~Means1, name="Media", line= list(color="green")) |>
   # Lineas de RNA2
   # Linea de valos máximos de RNA2
   add_lines(x=~Date, y =~max_y2, name="RNA", line= list(color="blue"),visible=F,legendgroup = 'struct2') |>
@@ -382,7 +404,7 @@ fig <- fig |>
   add_lines(x=~Date, y =~min_y2, name="min2", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F,legendgroup = 'struct2', showlegend=F) |>
   add_lines(x=~Date, y =~meanPortre2, name="meanP2", line= list(color="blue",dash = 'dash'),visible=F,legendgroup = 'struct2', showlegend=F) |>
   add_lines(x=~Date, y =~IBEX2, name="IBEX", line= list(color="red"),visible=F) |>
-  add_lines(x=~Date, y =~Means2, name="Means", line= list(color="green"),visible=F) |>
+  add_lines(x=~Date, y =~Means2, name="Media", line= list(color="green"),visible=F) |>
   # Lineas de RNA3
   # Linea de valos máximos de RNA3
   add_lines(x=~Date, y =~max_y3, name="RNA", line= list(color="blue"),visible=F,legendgroup = 'struct3') |>
@@ -391,7 +413,7 @@ fig <- fig |>
   add_lines(x=~Date, y =~min_y3, name="min3", line= list(color="blue"), fill = 'tonexty', fillcolor='rgba(18,18,255,0.2)',visible=F, legendgroup = 'struct3', showlegend=F) |>
   add_lines(x=~Date, y =~meanPortre3, name="meanP3", line= list(color="blue",dash = 'dash'),visible=F, legendgroup = 'struct3', showlegend=F) |>
   add_lines(x=~Date, y =~IBEX3, name="IBEX", line= list(color="red"),visible=F) |>
-  add_lines(x=~Date, y =~Means3, name="Means", line= list(color="green"),visible=F) |>
+  add_lines(x=~Date, y =~Means3, name="Media", line= list(color="green"),visible=F) |>
   layout(
     title="Carteiras Estructura-1",
     showlegend=T,
