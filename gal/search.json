@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "index.html#introdución",
+    "href": "index.html#introdución",
+    "title": "Traballo Fin de Máster",
+    "section": "Introdución",
+    "text": "Introdución\n\n\nEste traballo céntrase na integración de dúas potentes ferramentas: redes neuronais artificiais e programación cuadrática, para abordar o reto da xestión de carteiras."
+  },
+  {
+    "objectID": "index.html#estrutura-do-traballo",
+    "href": "index.html#estrutura-do-traballo",
+    "title": "Traballo Fin de Máster",
+    "section": "Estrutura do traballo",
+    "text": "Estrutura do traballo\n\n\nCaracterización de series temporais financeiras\nRedes neuronais artificiais na predición de series temporais\nComposición da carteira\n\n\n\n\nDatos\nModelado e adestramento\nResultado"
+  },
+  {
+    "objectID": "index.html#estrutura-da-presentación",
+    "href": "index.html#estrutura-da-presentación",
+    "title": "Traballo Fin de Máster",
+    "section": "Estrutura da presentación",
+    "text": "Estrutura da presentación\n\n\nCrítica literaria\nMetodoloxía\nResultados\nConclusións\nRecomendacións"
+  },
+  {
+    "objectID": "index.html#crítica-literaria",
+    "href": "index.html#crítica-literaria",
+    "title": "Traballo Fin de Máster",
+    "section": "Crítica literaria",
+    "text": "Crítica literaria\n\n\n\n\n“Empirical Asset Pricing via Machine Learning”\n\n\n\n\n“Gradient-based learning applied to document recognition”, “Long Short-Term Memory”, “Dual and primal-dual methods for solving strictly convex quadratic programs” y “A numerically stable dual method for solving strictly convex quadratic programs”\n\n\n\n\n“Comisión Nacional del Mercado de Valores y Bolsas y Mercados Españoles”\n\n\n\n\n“Medium”, “Investopedia”, “colah’s blog”, “Machine Learning Mastery” y “A brief review of portfolio optimization techniques”\n\n\n\n\n\nAprendizaxe automática para a avaliación de activos\nImportancia relativa dos preditores\nRendemento da carteira\n\n\n\n\nRedes neuronais de convulsión\nLSTM\nMétodo de conxunto activo dual\n\n\n\n\nConceptos fundamentais\nInformación\n\n\n\n\nMaterial de apoio"
+  },
+  {
+    "objectID": "index.html#metodoloxía",
+    "href": "index.html#metodoloxía",
+    "title": "Traballo Fin de Máster",
+    "section": "Metodoloxía",
+    "text": "Metodoloxía"
+  },
+  {
+    "objectID": "index.html#metodoloxía-1",
+    "href": "index.html#metodoloxía-1",
+    "title": "Traballo Fin de Máster",
+    "section": "Metodoloxía",
+    "text": "Metodoloxía\n\n\n\n\n\n\n\n\n\n\nDatos"
+  },
+  {
+    "objectID": "index.html#metodoloxía-2",
+    "href": "index.html#metodoloxía-2",
+    "title": "Traballo Fin de Máster",
+    "section": "Metodoloxía",
+    "text": "Metodoloxía\n\n\n\n\n\n\n\n\n\n\nDatos"
+  },
+  {
+    "objectID": "index.html#metodoloxía-3",
+    "href": "index.html#metodoloxía-3",
+    "title": "Traballo Fin de Máster",
+    "section": "Metodoloxía",
+    "text": "Metodoloxía\n\n\n\n\n\nDatos"
+  },
+  {
+    "objectID": "index.html#metodoloxía-4",
+    "href": "index.html#metodoloxía-4",
+    "title": "Traballo Fin de Máster",
+    "section": "Metodoloxía",
+    "text": "Metodoloxía\n\n\n\n\nDatos\n\n\n\n\nModelado"
+  },
+  {
+    "objectID": "index.html#metodoloxía-5",
+    "href": "index.html#metodoloxía-5",
+    "title": "Traballo Fin de Máster",
+    "section": "Metodoloxía",
+    "text": "Metodoloxía\n\n\n\n\nDatos\n\n\n\n\nModelado"
+  },
+  {
+    "objectID": "index.html#metodoloxía-6",
+    "href": "index.html#metodoloxía-6",
+    "title": "Traballo Fin de Máster",
+    "section": "Metodoloxía",
+    "text": "Metodoloxía\n\n\n\n\n\nDatos\n\n\n\n\nModelado"
+  },
+  {
+    "objectID": "index.html#metodoloxía-7",
+    "href": "index.html#metodoloxía-7",
+    "title": "Traballo Fin de Máster",
+    "section": "Metodoloxía",
+    "text": "Metodoloxía\n\n\n\n\n\nDatos\n\n\n\n\nModelado\n\n\n\n\nAdestramento"
+  },
+  {
+    "objectID": "index.html#metodoloxía-8",
+    "href": "index.html#metodoloxía-8",
+    "title": "Traballo Fin de Máster",
+    "section": "Metodoloxía",
+    "text": "Metodoloxía\n\n\n\n\nDatos\n\n\n\n\nModelado\n\n\n\n\nAdestramento\n\n\n\n\nResultados"
+  },
+  {
+    "objectID": "index.html#resultados",
+    "href": "index.html#resultados",
+    "title": "Traballo Fin de Máster",
+    "section": "Resultados",
+    "text": "Resultados"
+  },
+  {
+    "objectID": "index.html#resultados-1",
+    "href": "index.html#resultados-1",
+    "title": "Traballo Fin de Máster",
+    "section": "Resultados",
+    "text": "Resultados"
+  },
+  {
+    "objectID": "index.html#conclusións",
+    "href": "index.html#conclusións",
+    "title": "Traballo Fin de Máster",
+    "section": "Conclusións",
+    "text": "Conclusións\n\n\n\n\nEficacia\nVentaxa competitiva"
+  },
+  {
+    "objectID": "index.html#recomendacións",
+    "href": "index.html#recomendacións",
+    "title": "Traballo Fin de Máster",
+    "section": "Recomendacións",
+    "text": "Recomendacións\n\n\n\n\nContinuidade\nValidar\nExplicación"
+  },
+  {
+    "objectID": "index.html#máis",
+    "href": "index.html#máis",
+    "title": "Traballo Fin de Máster",
+    "section": "Máis",
+    "text": "Máis\n\n\n\n\nFinal Master’s Project\n\n\n\n\n\nDashboard\n\n\n\n\n\n\n\nDavid Díaz Rodríguez"
+  }
+]

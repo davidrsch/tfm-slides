@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Final Master’s Project",
+    "section": "Introduction",
+    "text": "Introduction\n\n\nThis work focuses on the integration of two powerful tools: artificial neural networks and quadratic programming, to address the challenge of portfolio management."
+  },
+  {
+    "objectID": "index.html#work-structure",
+    "href": "index.html#work-structure",
+    "title": "Final Master’s Project",
+    "section": "Work structure",
+    "text": "Work structure\n\n\nCharacterization of financial time series\nArtificial neural networks in time series forecasting\nPortfolio composition\n\n\n\n\nData\nModeling and training\nResult"
+  },
+  {
+    "objectID": "index.html#presentation-structure",
+    "href": "index.html#presentation-structure",
+    "title": "Final Master’s Project",
+    "section": "Presentation structure",
+    "text": "Presentation structure\n\n\nLiterature review\nMethodology\nResults\nConclusions\nRecommendations"
+  },
+  {
+    "objectID": "index.html#literature-review",
+    "href": "index.html#literature-review",
+    "title": "Final Master’s Project",
+    "section": "Literature Review",
+    "text": "Literature Review\n\n\n\n\n“Empirical Asset Pricing via Machine Learning”\n\n\n\n\n“Gradient-based learning applied to document recognition”, “Long Short-Term Memory”, “Dual and primal-dual methods for solving strictly convex quadratic programs” y “A numerically stable dual method for solving strictly convex quadratic programs”\n\n\n\n\n“Comisión Nacional del Mercado de Valores y Bolsas y Mercados Españoles”\n\n\n\n\n“Medium”, “Investopedia”, “colah’s blog”, “Machine Learning Mastery” y “A brief review of portfolio optimization techniques”\n\n\n\n\n\nMachine learning for asset evaluation\nRelative importance of predictors\nPortfolio performance\n\n\n\n\nConvulsion Neural Networks\nLSTM\nDual Active Set Method\n\n\n\n\nFundamental concepts\nInformation\n\n\n\n\nSupport material"
+  },
+  {
+    "objectID": "index.html#methodology",
+    "href": "index.html#methodology",
+    "title": "Final Master’s Project",
+    "section": "Methodology",
+    "text": "Methodology"
+  },
+  {
+    "objectID": "index.html#methodology-1",
+    "href": "index.html#methodology-1",
+    "title": "Final Master’s Project",
+    "section": "Methodology",
+    "text": "Methodology\n\n\n\n\n\n\n\n\n\n\nData"
+  },
+  {
+    "objectID": "index.html#methodology-2",
+    "href": "index.html#methodology-2",
+    "title": "Final Master’s Project",
+    "section": "Methodology",
+    "text": "Methodology\n\n\n\n\n\n\n\n\n\n\nData"
+  },
+  {
+    "objectID": "index.html#methodology-3",
+    "href": "index.html#methodology-3",
+    "title": "Final Master’s Project",
+    "section": "Methodology",
+    "text": "Methodology\n\n\n\n\n\nData"
+  },
+  {
+    "objectID": "index.html#methodology-4",
+    "href": "index.html#methodology-4",
+    "title": "Final Master’s Project",
+    "section": "Methodology",
+    "text": "Methodology\n\n\n\n\nData\n\n\n\n\nModeling"
+  },
+  {
+    "objectID": "index.html#methodology-5",
+    "href": "index.html#methodology-5",
+    "title": "Final Master’s Project",
+    "section": "Methodology",
+    "text": "Methodology\n\n\n\n\nData\n\n\n\n\nModeling"
+  },
+  {
+    "objectID": "index.html#methodology-6",
+    "href": "index.html#methodology-6",
+    "title": "Final Master’s Project",
+    "section": "Methodology",
+    "text": "Methodology\n\n\n\n\n\nData\n\n\n\n\nModeling"
+  },
+  {
+    "objectID": "index.html#methodology-7",
+    "href": "index.html#methodology-7",
+    "title": "Final Master’s Project",
+    "section": "Methodology",
+    "text": "Methodology\n\n\n\n\n\nData\n\n\n\n\nModeling\n\n\n\n\nTraining"
+  },
+  {
+    "objectID": "index.html#methodology-8",
+    "href": "index.html#methodology-8",
+    "title": "Final Master’s Project",
+    "section": "Methodology",
+    "text": "Methodology\n\n\n\n\nData\n\n\n\n\nModeling\n\n\n\n\nTraining\n\n\n\n\nResults"
+  },
+  {
+    "objectID": "index.html#results",
+    "href": "index.html#results",
+    "title": "Final Master’s Project",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "index.html#results-1",
+    "href": "index.html#results-1",
+    "title": "Final Master’s Project",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "index.html#conclusions",
+    "href": "index.html#conclusions",
+    "title": "Final Master’s Project",
+    "section": "Conclusions",
+    "text": "Conclusions\n\n\n\n\nEffectiveness\nCompetitive advantage"
+  },
+  {
+    "objectID": "index.html#recommendations",
+    "href": "index.html#recommendations",
+    "title": "Final Master’s Project",
+    "section": "Recommendations",
+    "text": "Recommendations\n\n\n\n\nContinuity\nValidate\nExplainability"
+  },
+  {
+    "objectID": "index.html#more",
+    "href": "index.html#more",
+    "title": "Final Master’s Project",
+    "section": "More",
+    "text": "More\n\n\n\n\nFinal Master’s Project\n\n\n\n\n\nDashboard\n\n\n\n\n\n\n\nDavid Díaz Rodríguez"
+  }
+]

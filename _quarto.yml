@@ -1,8 +1,0 @@
-project:
-  type: website
-  output-dir: docs
-  pre-render: 
-    - movelogos.R
-  post-render: 
-    - renderlangvers.R
-    - forcedeploy.R
