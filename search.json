@@ -147,132 +147,6 @@
     "text": "Máis\n\n\n\n\nFinal Master’s Project\n\n\n\n\n\nDashboard\n\n\n\n\n\n\n\nDavid Díaz Rodríguez"
   },
   {
-    "objectID": "index.html#introducción",
-    "href": "index.html#introducción",
-    "title": "Trabajo Final de Máster",
-    "section": "Introducción",
-    "text": "Introducción\n\n\nEste trabajo se enfoca en la integración de dos poderosas herramientas: las redes neuronales artificiales y la programación cuadrática, para abordar el desafío de la gestión de carteras."
-  },
-  {
-    "objectID": "index.html#estructura-del-trabajo",
-    "href": "index.html#estructura-del-trabajo",
-    "title": "Trabajo Final de Máster",
-    "section": "Estructura del trabajo",
-    "text": "Estructura del trabajo\n\n\nCaracterización de las series temporales financieras\nRedes neuronales artificiales en la previsión de las series de tiempo\nComposición de carteras\n\n\n\n\nDatos\nModelado y entrenamiento\nResultado"
-  },
-  {
-    "objectID": "index.html#estructura-de-la-exposición",
-    "href": "index.html#estructura-de-la-exposición",
-    "title": "Trabajo Final de Máster",
-    "section": "Estructura de la exposición",
-    "text": "Estructura de la exposición\n\n\nRevisión de la literatura\nMetodología\nResultados\nConclusiones\nRecomendaciones"
-  },
-  {
-    "objectID": "index.html#revisión-de-la-literatura",
-    "href": "index.html#revisión-de-la-literatura",
-    "title": "Trabajo Final de Máster",
-    "section": "Revisión de la literatura",
-    "text": "Revisión de la literatura\n\n\n\n\n“Empirical Asset Pricing via Machine Learning”\n\n\n\n\n“Gradient-based learning applied to document recognition”, “Long Short-Term Memory”, “Dual and primal-dual methods for solving strictly convex quadratic programs” y “A numerically stable dual method for solving strictly convex quadratic programs”\n\n\n\n\n“Comisión Nacional del Mercado de Valores y Bolsas y Mercados Españoles”\n\n\n\n\n“Medium”, “Investopedia”, “colah’s blog”, “Machine Learning Mastery” y “A brief review of portfolio optimization techniques”\n\n\n\n\n\nAprendizaje automático para la evaluación de activos\nImportancia relativa de los predictores\nRendimiento de la cartera\n\n\n\n\nRedes Neuronales Convulucionales\nLSTM\nDual Active Set Method\n\n\n\n\nConceptos fundamentales\nInformación\n\n\n\n\nMaterial de apoyo"
-  },
-  {
-    "objectID": "index.html#metodología",
-    "href": "index.html#metodología",
-    "title": "Trabajo Final de Máster",
-    "section": "Metodología",
-    "text": "Metodología"
-  },
-  {
-    "objectID": "index.html#metodología-1",
-    "href": "index.html#metodología-1",
-    "title": "Trabajo Final de Máster",
-    "section": "Metodología",
-    "text": "Metodología\n\n\n\n\n\n\n\n\n\n\nDatos"
-  },
-  {
-    "objectID": "index.html#metodología-2",
-    "href": "index.html#metodología-2",
-    "title": "Trabajo Final de Máster",
-    "section": "Metodología",
-    "text": "Metodología\n\n\n\n\n\n\n\n\n\n\nDatos"
-  },
-  {
-    "objectID": "index.html#metodología-3",
-    "href": "index.html#metodología-3",
-    "title": "Trabajo Final de Máster",
-    "section": "Metodología",
-    "text": "Metodología\n\n\n\n\n\nDatos"
-  },
-  {
-    "objectID": "index.html#metodología-4",
-    "href": "index.html#metodología-4",
-    "title": "Trabajo Final de Máster",
-    "section": "Metodología",
-    "text": "Metodología\n\n\n\n\nDatos\n\n\n\n\nModelado"
-  },
-  {
-    "objectID": "index.html#metodología-5",
-    "href": "index.html#metodología-5",
-    "title": "Trabajo Final de Máster",
-    "section": "Metodología",
-    "text": "Metodología\n\n\n\n\nDatos\n\n\n\n\nModelado"
-  },
-  {
-    "objectID": "index.html#metodología-6",
-    "href": "index.html#metodología-6",
-    "title": "Trabajo Final de Máster",
-    "section": "Metodología",
-    "text": "Metodología\n\n\n\n\n\nDatos\n\n\n\n\nModelado"
-  },
-  {
-    "objectID": "index.html#metodología-7",
-    "href": "index.html#metodología-7",
-    "title": "Trabajo Final de Máster",
-    "section": "Metodología",
-    "text": "Metodología\n\n\n\n\n\nDatos\n\n\n\n\nModelado\n\n\n\n\nEntrenamiento"
-  },
-  {
-    "objectID": "index.html#metodología-8",
-    "href": "index.html#metodología-8",
-    "title": "Trabajo Final de Máster",
-    "section": "Metodología",
-    "text": "Metodología\n\n\n\n\nDatos\n\n\n\n\nModelado\n\n\n\n\nEntrenamiento\n\n\n\n\nResultado"
-  },
-  {
-    "objectID": "index.html#resultados",
-    "href": "index.html#resultados",
-    "title": "Trabajo Final de Máster",
-    "section": "Resultados",
-    "text": "Resultados"
-  },
-  {
-    "objectID": "index.html#resultados-1",
-    "href": "index.html#resultados-1",
-    "title": "Trabajo Final de Máster",
-    "section": "Resultados",
-    "text": "Resultados"
-  },
-  {
-    "objectID": "index.html#conclusiones",
-    "href": "index.html#conclusiones",
-    "title": "Trabajo Final de Máster",
-    "section": "Conclusiones",
-    "text": "Conclusiones\n\n\n\n\nEfectividad\nVentaja Competitiva"
-  },
-  {
-    "objectID": "index.html#recomendaciones",
-    "href": "index.html#recomendaciones",
-    "title": "Trabajo Final de Máster",
-    "section": "Recomendaciones",
-    "text": "Recomendaciones\n\n\n\n\nContinuidad\nValidar\nExplicabilidad"
-  },
-  {
-    "objectID": "index.html#más",
-    "href": "index.html#más",
-    "title": "Trabajo Final de Máster",
-    "section": "Más",
-    "text": "Más\n\n\n\n\nTrabajo Final de Máster\n\n\n\n\n\nDashboard\n\n\n\n\n\n\n\nDavid Díaz Rodríguez"
-  },
-  {
     "objectID": "eng/index.html#introduction",
     "href": "eng/index.html#introduction",
     "title": "Final Master’s Project",
@@ -397,5 +271,131 @@
     "title": "Final Master’s Project",
     "section": "More",
     "text": "More\n\n\n\n\nFinal Master’s Project\n\n\n\n\n\nDashboard\n\n\n\n\n\n\n\nDavid Díaz Rodríguez"
+  },
+  {
+    "objectID": "index.html#introducción",
+    "href": "index.html#introducción",
+    "title": "Trabajo Final de Máster",
+    "section": "Introducción",
+    "text": "Introducción\n\n\nEste trabajo se enfoca en la integración de dos poderosas herramientas: las redes neuronales artificiales y la programación cuadrática, para abordar el desafío de la gestión de carteras."
+  },
+  {
+    "objectID": "index.html#estructura-del-trabajo",
+    "href": "index.html#estructura-del-trabajo",
+    "title": "Trabajo Final de Máster",
+    "section": "Estructura del trabajo",
+    "text": "Estructura del trabajo\n\n\nCaracterización de las series temporales financieras\nRedes neuronales artificiales en la previsión de las series de tiempo\nComposición de carteras\n\n\n\n\nDatos\nModelado y entrenamiento\nResultado"
+  },
+  {
+    "objectID": "index.html#estructura-de-la-exposición",
+    "href": "index.html#estructura-de-la-exposición",
+    "title": "Trabajo Final de Máster",
+    "section": "Estructura de la exposición",
+    "text": "Estructura de la exposición\n\n\nRevisión de la literatura\nMetodología\nResultados\nConclusiones\nRecomendaciones"
+  },
+  {
+    "objectID": "index.html#revisión-de-la-literatura",
+    "href": "index.html#revisión-de-la-literatura",
+    "title": "Trabajo Final de Máster",
+    "section": "Revisión de la literatura",
+    "text": "Revisión de la literatura\n\n\n\n\n“Empirical Asset Pricing via Machine Learning”\n\n\n\n\n“Gradient-based learning applied to document recognition”, “Long Short-Term Memory”, “Dual and primal-dual methods for solving strictly convex quadratic programs” y “A numerically stable dual method for solving strictly convex quadratic programs”\n\n\n\n\n“Comisión Nacional del Mercado de Valores y Bolsas y Mercados Españoles”\n\n\n\n\n“Medium”, “Investopedia”, “colah’s blog”, “Machine Learning Mastery” y “A brief review of portfolio optimization techniques”\n\n\n\n\n\nAprendizaje automático para la evaluación de activos\nImportancia relativa de los predictores\nRendimiento de la cartera\n\n\n\n\nRedes Neuronales Convulucionales\nLSTM\nDual Active Set Method\n\n\n\n\nConceptos fundamentales\nInformación\n\n\n\n\nMaterial de apoyo"
+  },
+  {
+    "objectID": "index.html#metodología",
+    "href": "index.html#metodología",
+    "title": "Trabajo Final de Máster",
+    "section": "Metodología",
+    "text": "Metodología"
+  },
+  {
+    "objectID": "index.html#metodología-1",
+    "href": "index.html#metodología-1",
+    "title": "Trabajo Final de Máster",
+    "section": "Metodología",
+    "text": "Metodología\n\n\n\n\n\n\n\n\n\n\nDatos"
+  },
+  {
+    "objectID": "index.html#metodología-2",
+    "href": "index.html#metodología-2",
+    "title": "Trabajo Final de Máster",
+    "section": "Metodología",
+    "text": "Metodología\n\n\n\n\n\n\n\n\n\n\nDatos"
+  },
+  {
+    "objectID": "index.html#metodología-3",
+    "href": "index.html#metodología-3",
+    "title": "Trabajo Final de Máster",
+    "section": "Metodología",
+    "text": "Metodología\n\n\n\n\n\nDatos"
+  },
+  {
+    "objectID": "index.html#metodología-4",
+    "href": "index.html#metodología-4",
+    "title": "Trabajo Final de Máster",
+    "section": "Metodología",
+    "text": "Metodología\n\n\n\n\nDatos\n\n\n\n\nModelado"
+  },
+  {
+    "objectID": "index.html#metodología-5",
+    "href": "index.html#metodología-5",
+    "title": "Trabajo Final de Máster",
+    "section": "Metodología",
+    "text": "Metodología\n\n\n\n\nDatos\n\n\n\n\nModelado"
+  },
+  {
+    "objectID": "index.html#metodología-6",
+    "href": "index.html#metodología-6",
+    "title": "Trabajo Final de Máster",
+    "section": "Metodología",
+    "text": "Metodología\n\n\n\n\n\nDatos\n\n\n\n\nModelado"
+  },
+  {
+    "objectID": "index.html#metodología-7",
+    "href": "index.html#metodología-7",
+    "title": "Trabajo Final de Máster",
+    "section": "Metodología",
+    "text": "Metodología\n\n\n\n\n\nDatos\n\n\n\n\nModelado\n\n\n\n\nEntrenamiento"
+  },
+  {
+    "objectID": "index.html#metodología-8",
+    "href": "index.html#metodología-8",
+    "title": "Trabajo Final de Máster",
+    "section": "Metodología",
+    "text": "Metodología\n\n\n\n\nDatos\n\n\n\n\nModelado\n\n\n\n\nEntrenamiento\n\n\n\n\nResultado"
+  },
+  {
+    "objectID": "index.html#resultados",
+    "href": "index.html#resultados",
+    "title": "Trabajo Final de Máster",
+    "section": "Resultados",
+    "text": "Resultados"
+  },
+  {
+    "objectID": "index.html#resultados-1",
+    "href": "index.html#resultados-1",
+    "title": "Trabajo Final de Máster",
+    "section": "Resultados",
+    "text": "Resultados"
+  },
+  {
+    "objectID": "index.html#conclusiones",
+    "href": "index.html#conclusiones",
+    "title": "Trabajo Final de Máster",
+    "section": "Conclusiones",
+    "text": "Conclusiones\n\n\n\n\nEfectividad\nVentaja Competitiva"
+  },
+  {
+    "objectID": "index.html#recomendaciones",
+    "href": "index.html#recomendaciones",
+    "title": "Trabajo Final de Máster",
+    "section": "Recomendaciones",
+    "text": "Recomendaciones\n\n\n\n\nContinuidad\nValidar\nExplicabilidad"
+  },
+  {
+    "objectID": "index.html#más",
+    "href": "index.html#más",
+    "title": "Trabajo Final de Máster",
+    "section": "Más",
+    "text": "Más\n\n\n\n\nTrabajo Final de Máster\n\n\n\n\n\nDashboard\n\n\n\n\n\n\n\nDavid Díaz Rodríguez"
   }
 ]
